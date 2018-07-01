@@ -1,11 +1,11 @@
-package com.peelmicro.spring5webapp.model.boostrap;
+package com.peelmicro.spring5webapp.boostrap;
 
 import com.peelmicro.spring5webapp.model.Author;
 import com.peelmicro.spring5webapp.model.Book;
 import com.peelmicro.spring5webapp.model.Publisher;
-import com.peelmicro.spring5webapp.model.repositories.AuthorRepository;
-import com.peelmicro.spring5webapp.model.repositories.BookRepository;
-import com.peelmicro.spring5webapp.model.repositories.PublisherRepository;
+import com.peelmicro.spring5webapp.repositories.AuthorRepository;
+import com.peelmicro.spring5webapp.repositories.BookRepository;
+import com.peelmicro.spring5webapp.repositories.PublisherRepository;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.stereotype.Component;

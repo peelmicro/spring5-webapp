@@ -1,4 +1,4 @@
-package com.peelmicro.spring5webapp.model.repositories;
+package com.peelmicro.spring5webapp.repositories;
 
 import com.peelmicro.spring5webapp.model.Book;
 import org.springframework.data.repository.CrudRepository;
